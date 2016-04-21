@@ -1,200 +1,86 @@
-/* Shared
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
-.button {
-  border-radius: 100px;
+/* Shared*/
+body{
+  background-color: #060402;
+  color: white;
 }
 
-#navbar ul {
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
-	overflow: hidden;
-	background-color: #333;
-	/* For fixed top nav
-	position: fixed;
-	top: 0;
-	widows: 100%;*/
+/* Navigation menu */
+  #menu {
+      text-align: center;
+      background-color: #060402;
+  }
+
+  #menu ul {
+    height: auto;
+    margin: 0px;
+    padding: 8px 0px;
+  }
+
+  #menu li {
+    display: inline;
+    padding: 20px;
+  }
+
+  #menu a {
+    text-decoration: none;
+  }
+
+  #nav-display-name {
+    padding: 20px;
+  }
+
+/* Hero Section*/
+
+.learn-more-button {
+  text-align: center;
+  height: 35rem;
+  margin-top: 25rem;
 }
 
-#navbar li {
-	float:left;
+.learn-more-button a {
+  display: block;
+  width: 20rem;
 }
 
-#navbar li a {
-	display: block;
-	color: white;
-	text-align: center;
-	padding: 14px 16px;
-	text-decoration: none;
+.hero {
+  background: url('../images/hero.jpg') no-repeat; 
+  color: white;
+
+  background-size: cover;
 }
 
-#navbar li a:hover:not(.active) {
-	background-color: #111;
-}
-.active {
-	background-color: #4CAF50;
+.hero h2, h5 {
+  padding: 1rem;
 }
 
-#nav-name {
-	color: white;
-	text-align: center;
-	padding: 16px 16px;
-	text-decoration: none;
-}
-
-#navbar {
-	background-color: #333;
-
-}
-
-#technology li {
-	display: block;
-	list-style: disc;
-	background-color: white;
-	float:none;
-}
-/* Sections
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
-.section {
-  padding: 8rem 0 7rem;
+/* Experiences section containing past project and technology */
+#tech-table{
+  width: 60rem;
   text-align: center;
 }
-.section-heading,
-.section-description {
-  margin-bottom: 1.2rem;
+
+#tech-table span {
+  display: block;
+  text-align: center;
 }
 
-/* Hero
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
-.phones {
-  position: relative;
-}
-.phone {
-  position: relative;
-  max-width: 80%;
-  margin: 3rem auto -12rem;
-}
-.phone + .phone {
-  display: none;
+#tech-table img {
+  vertical-align: top;
+  padding: 0rem 1rem;
+  margin: 0rem 1rem;
 }
 
-/* Values
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
-.values {
-  /*background-image: url('../images/hero.jpg'); */
-  background-size: cover;
-  color: #fff;
-  padding-bottom: 5rem;
-}
-.value-multiplier {
-  margin-bottom: .5rem;
-  color: #00000;
-}
-.value-heading {
-  margin-bottom: .3rem;
-}
-.value-description {
-  opacity: .8;
-  font-weight: 300;
+#tech-table th {
+  text-align: center;
 }
 
-/* Help
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
-.get-help {
-  border-bottom: 1px solid #ddd;
+.badges {
+  height: 50px;
+  width: 50px;
+  border-radius: 15px;
 }
 
-/* Categories
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
-.categories {
-  background-image: url('../images/values-bg.jpg');
-  background-size: cover;
-  color: #fff;
-}
-.categories .section-description { 
-  margin-bottom: 4rem;
-}
-
-/* Bigger than 550 */
-@media (min-width: 550px) {
-  .section {
-    padding: 12rem 0 11rem;
-  }
-  .hero {
-    padding-bottom: 12rem;
-    text-align: left;
-    height: 165px;
-  }
-  .phone {
-    position: absolute;
-    top: -7rem;
-    right: 3rem;
-    max-height: 362px;
-    z-index: 3;
-  }
-  .phone + .phone {
-    top: -6rem;
-    display: block;
-    max-width: 73.8%;
-    right: 0;
-    z-index: 2;
-    max-height: 338px;
-  }
-  .hero-heading {
-    font-size: 2.4rem;
-  }
-}
-
-/* Bigger than 750 */
-@media (min-width: 750px) {
-  .hero {
-    height: 190px;
-  }
-  .hero-heading {
-    font-size: 2.6rem;
-  }
-  .section {
-    padding: 14rem 0 15rem;
-  }
-  .hero {
-    padding: 16rem 0 14rem;
-  }
-  .section-description {
-    max-width: 60%;
-    margin-left: auto;
-    margin-right: auto;
-  }
-  .phone {
-    top: -14rem;
-    right: 5rem;
-    max-height: 510px;
-  }
-  .phone + .phone {
-    top: -12rem;
-    max-height: 472px;
-  }
-  .categories {
-    padding: 15rem 0 8rem;
-  }
-}
-
-/* Bigger than 1000 */
-@media (min-width: 1000px) {
-  .section {
-    padding: 20rem 0 19rem;
-  }
-  .hero {
-    padding: 22rem 0;
-  }
-  .hero-heading {
-    font-size: 3.0rem;
-  }
-  .phone {
-    top: -16rem;
-    max-height: 615px;
-  }
-  .phone + .phone {
-    top: -14rem;
-    max-height: 570px;
-  }
+/* Contact section */
+.contact span {
+  font-size: 2.5rem;
 }
