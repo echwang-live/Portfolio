@@ -32,172 +32,142 @@
   <link rel="icon" type="image/png" href="static/images/favicon.png">
 
 </head>
-<body>
 
-  <!-- Primary Page Layout - Hero section
+<!-- Start of document 
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <div class="section_hero">
-    <div class="container">
-      <div class="row" id="navbar">
-          <div class="one-third column">
-            <span id="nav-name">Eric Wang</span>
-          </div>
-
-          <div class="two-thirds column">
-             <ul>
-              <li><a class="active" href="#me">Me</a></li>
-              <li><a href="#experiences">Past Projects</a></li>
-              <li><a href="#projects">Portfolio Projects</a></li>
-              <li><a href="#contact">Contact Me</a></li>
-            </ul>
-          </div>
-      </div>
-    </div>
-  </div>
-
-<section id="hero"> 
+<body>
   <div class="container">
+    <div class="row" id="menu">
+      <div class="five column">
+        <ul>
+          <li><a class="active" href="#me">Eric Wang</a></li>
+          <li><a href="#experiences">Past Projects</a></li>
+          <li><a href="#projects">Portfolio Projects</a></li>
+          <li><a href="#contact">Contact Me</a></li>
+        </ul>
+      </div>
+   </div>
+  
+   <div class="hero">
     <a name="me"></a>
     <h2>Hi, I'm Eric. I design & build software</h2>
     <h5>Software engineer with project management experience looking to enrich everyday life with technologies.</h5>
-
-    <div class="row">
-      <div class="six columns">
-        <a class="button button-primary" href="#experiences">Learn more about me</a>
-      </div>
-    </div>  
+    <div class="learn-more-button">
+      <a class="button button-primary" href="#experiences">Learn more about me</a><br>
+      <a class="button button-primary" href="#contact">Contact me</a>  
+    </div> 
   </div>
-</section>
 
-<section id="experiences">
-  <div class="container">
+  <div class="experiences">
     <a name="experiences"></a>
     <h2>Past Professional Projects</h2>
-    <table>
-      <thead>
-        <td>Search</td>
-        <td>Maps</tdr>
-        <td>Enterprise Print</td>
-      </thead>
-      <tr>
-        <td>The original digital assistant on Windows Phone 7 as described by <a href="https://www.windowsphone.com/en-US/how-to/wp7/web/searching-for-stuff">Microsoft</a></td>
-        <td><a href="http://winsupersite.com/article/windows-phone-8/windows-phone-8-tip-download-maps-offline-144726">Map package manager</a>allowing users to manage their regions to use offline. The underlying map data is consumed by both Bing Maps and Nokia Here Maps</td>
-        <td>Enterprise print capabilities with respect to mobile and enterprise focused on printing from anywhere concept</td>
-      </tr>
-      <tr>
-        <td><img src="static/images/wp7-search.jpg" alt="Windows Phone 7 Search"></td>
-        <td><img src="static/images/wp8-maps.jpg" alt="Windows Phone 8 Offline Maps"></td>
-        <td><img src="static/images/win10-print.png" alt="Windows 10 Print UX"></td>
-      </tr>
-    </table>
+    <div class="container">
+          <table>
+          <thead>
+            <td>Search</td>
+            <td>Maps</tdr>
+            <td>Enterprise Print</td>
+          </thead>
+          <tr>
+            <td>The original digital assistant on Windows Phone 7 as described by <a href="https://www.windowsphone.com/en-US/how-to/wp7/web/searching-for-stuff">Microsoft</a></td>
+            <td><a href="http://winsupersite.com/article/windows-phone-8/windows-phone-8-tip-download-maps-offline-144726">Map package manager</a>allowing users to manage their regions to use offline. The underlying map data is consumed by both Bing Maps and Nokia Here Maps</td>
+            <td>Enterprise print capabilities with respect to mobile and enterprise focused on printing from anywhere concept</td>
+          </tr>
+          <tr>
+            <td><img src="static/images/wp7-search.jpg" alt="Windows Phone 7 Search"></td>
+            <td><img src="static/images/wp8-maps.jpg" alt="Windows Phone 8 Offline Maps"></td>
+            <td><img src="static/images/win10-print.png" alt="Windows 10 Print UX"></td>
+          </tr>
+        </table>   
+    </div>
     
     <h2>Technology</h2>
-    <table id="technology">
-      <thead>
-        <td>Languages</td>
-        <td>Libraies</td>
-        <td>Frameworks</td>
-        <td>Database</td>
-        <td>Server</td>
-        <td>Development Tools & Environment</td>
-      </thead>
-      <tr>
-        <td>
-          <ul>
-            <li>C++</li>
-            <li>C#</li>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>Javascript</li>
-            <li>Python</li>
-            <li>Angular</li>
-            <li>Swift</li>
-          </ul>
-        </td>
+    <div class="container">
+      <table id="tech-table">
+        <tr>
+          <th>Languages</th>
+          <td><span>C++</span><img class ="badges" src="static/images/badges/c++.png" alt="C++"></td>
+          <td><span>C#</span><img class ="badges" src="static/images/badges/csharp.png" alt="C#"></td>
+          <td><span>HTML</span><img class ="badges" src="static/images/badges/html.png" alt="HTML"></td>
+          <td><span>CSS</span><img class ="badges" src="static/images/badges/css.png" alt="CSS"></td>
+        </tr>
 
-        <td>
-          <ul>
-            <li>jQuery</li>
-            <li>Meteror</li>
-          </ul>
-        </td>
+        <tr>
+          <th></th>
+          <td><span>Javascript</span><img class ="badges" src="static/images/badges/js.png" alt="Javascript"></td>
+          <td><span>Python</span><img class ="badges" src="static/images/badges/python.png" alt="Python"></td>
+          <td><span>Angular</span><img class ="badges" src="static/images/badges/angular.png" alt="Angular"></td>
+          <td><span>Swift</span><img class ="badges" src="static/images/badges/swift.jpeg" alt="Swift"></td>
+        </tr>
 
-        <td>
-          <ul>
-            <li>Django</li>
-            <li>Express</li>
-            <li>iOS frameworks</li>
-          </ul>
-        </td>
+        <tr>
+          <th>Frameworks</th>
+          <td><span>Django</span><img class ="badges" src="static/images/badges/django.png" alt="Django"></td>
+          <td><span>Express</span><img class ="badges" src="static/images/badges/express.png" alt="Express"></td>
+          <td><span>iOS</span><img class ="badges" src="static/images/badges/ios.png" alt="iOS"></td>
+          <td><span>Meteror</span><img class ="badges" src="static/images/badges/meteror.jpeg" alt="Meteror"></td>
+        </tr>
 
-        <td>
-          <ul>
-            <li>mongoDB</li>
-            <li>MySQL</li>
-            <li>SQLite</li>
-          </ul>
-        </td>
+        <tr>
+          <th>Libraries</th>
+          <td><span>jQuery</span><img class ="badges" src="static/images/badges/jquery.png" alt="jQuery"></td>
+        </tr>
 
-        <td>
-          <ul>
-            <li>Node</li>
-            <li>AWS</li>
-          </ul>
-        </td>
+        <tr>
+          <th>Databases</th>
+          <td><span>MongoDB</span><img class ="badges" src="static/images/badges/mongo.png" alt="MongoDb"></td>
+          <td><span>MySQL</span><img class ="badges" src="static/images/badges/mysql.png" alt="MySQL"></td>
+          <td><span>SQLite</span><img class ="badges" src="static/images/badges/sqlite.png" alt="SqlLite"></td>
+        </tr>
 
-        <td>
-          <ul>
-            <li>GitHub</li>
-            <li>Visual Studio</li>
-            <li>Sublime Text 2</li>
-            <li>XCode</li>
-          </ul>
-        </td>
-      </tr>
-    </table>
+        <tr>
+          <th>Servers</th>
+          <td><span>Node.js</span><img class ="badges" src="static/images/badges/nodejs.png" alt="Node"></td>
+          <td><span>AWS</span><img class ="badges" src="static/images/badges/aws.png" alt="AWS"></td>
+          <td><span>General VM Deployment</span><img class ="badges" src="static/images/badges/deployment.png" alt="Deployment"></td>
+        </tr>
 
-    <h2>Qualifications</h2>
-    <ul>
-      <li>Software Design Engineer in Test</li>
-      <li>Program manager  PMP certified</li>
-      <li>Fullstack developer</li>
-      <li>Fluent in English and Mandarin</li>
-    </ul>
+        <tr>
+          <th>Dev Tools and Environments</th>
+          <td><span>Git & GitHub</span><img class ="badges" src="static/images/badges/git.png" alt="GitHub"></td>
+          <td><span>Visual Studio</span><img class ="badges" src="static/images/badges/vs.jpeg" alt="Visual Studio"></td>
+          <td><span>Sublime Text 2</span><img class ="badges" src="static/images/badges/sublime.png" alt="Sublime Text 2"></td>
+          <td><span>XCode</span><img class ="badges" src="static/images/badges/xcode.jpeg" alt="XCode"></td>
+        </tr>
 
+        <tr>
+          <th>Others</th>
+          <td><span>PMP</span><img class ="badges" src="static/images/badges/pmp.jpeg" alt="Project Management Professional"></td>
+        </tr>
+      </table>
+    </div>
   </div>
-</section>
 
-<section id="projects">
-  <div class="container">
-    <a name="projects"></a>
+  <div class="projects">
     <h2>Self-directed Projects</h2>
-    <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque at urna vitae tellus elementum tempus non in ex. Duis blandit ipsum nec eros feugiat mattis. Mauris vel ante ipsum. Duis feugiat lectus turpis, ut ornare ipsum tempus et. Sed laoreet placerat sem. Phasellus porta porta nibh, vel egestas neque pellentesque ac. Quisque sed dui aliquam, tempus urna gravida, placerat eros.
-
-    Praesent mollis, risus eget varius viverra, erat ex porttitor erat, vel blandit lectus leo tristique ex. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras a vestibulum erat, eu elementum risus. Morbi eu elit ut erat consequat laoreet tincidunt eleifend nibh. Praesent ac ante eget dui suscipit pretium gravida nec massa. Praesent dignissim eros nisl, quis mollis metus mollis ac. Duis semper egestas ex, sed volutpat est sollicitudin eget. Etiam ac interdum libero, ac imperdiet ex. Cras in accumsan lorem, et pretium elit. Nullam pulvinar ut lacus quis placerat. Quisque at risus placerat, tincidunt libero ut, interdum dolor. Nam ullamcorper eros vel dignissim faucibus. Curabitur pretium ligula molestie, rutrum metus a, tincidunt turpis. Praesent nec orci blandit, blandit mauris vitae, vehicula ipsum. Donec sed vehicula sem. Sed finibus viverra aliquam.
-
-    Sed lacinia elit vitae vestibulum ultrices. Suspendisse dignissim gravida lacus, eu tempus mauris venenatis ut. Aliquam dolor metus, aliquam non nulla quis, condimentum convallis erat. In molestie elementum nibh, vitae ultricies magna fringilla at. Suspendisse nec sapien eu libero tincidunt vulputate sed eu metus. Sed mollis leo mauris, ac congue ipsum tincidunt vitae. Mauris feugiat pellentesque porta. Suspendisse potenti. Donec massa nunc, scelerisque at enim eu, ullamcorper blandit magna. Proin venenatis imperdiet felis, ac molestie justo efficitur ac. Vivamus consectetur augue vitae arcu laoreet, nec convallis tortor aliquam. Sed purus sem, elementum ac vehicula vitae, ultrices vel elit. Integer tincidunt convallis odio non mattis.
-
-    Sed sodales mi mauris, nec ultrices nisi lobortis eget. Cras sit amet feugiat ante. Aenean mattis vitae eros vitae imperdiet. Phasellus orci ante, rutrum vitae eros at, facilisis tristique dolor. Vivamus sit amet porta purus. Cras varius condimentum sagittis. Fusce vulputate elit a enim vulputate, non posuere lectus ullamcorper. Nam pharetra scelerisque mi eget consectetur. Maecenas at bibendum arcu, quis hendrerit nisi. Sed eu risus mollis, vestibulum felis vitae, convallis magna. Duis placerat urna a leo elementum gravida. Nunc nec lacus euismod, venenatis augue eget, laoreet arcu. Vestibulum malesuada condimentum eros id finibus. Maecenas mattis, sem quis blandit viverra, felis nulla tincidunt elit, nec accumsan neque tellus dignissim ipsum.
-
-    </span>
+    <div class="container">
+      <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque at urna vitae tellus elementum tempus non in ex. Duis blandit ipsum nec eros feugiat mattis. Mauris vel ante ipsum. Duis feugiat lectus turpis, ut ornare ipsum tempus et. Sed laoreet placerat sem. Phasellus porta porta nibh, vel egestas neque pellentesque ac. Quisque sed dui aliquam, tempus urna gravida, placerat eros.
+      </span>
+    </div>
   </div>
-</section>
 
-<section id="contact">
-  <div class="container">
+  <div class="contact">
     <a name="contact"></a>
     <h2>Contact</h2>
-    <h4>Feel free to contact me with greetings, questions, or war stories! </h4>
-    <h4>echwang@live.com</h4>
-    <h4>
-      <a href="">LinkedIn</a>
-      <a href="">CV</a>
-      <a href="">GitHub</a>
-    </h4>
-
+    Feel free to contact me with greetings, questions, or war stories @ <a href="mailto:echwang@live.com?Subject=Hello%20from%20the%20web">echwang@live.com</a>
+    
+    <div class="container">
+      <div class="row">
+        <div class="four columns"><a href=""><span>LinkedIn</span></a></div>
+        <div class="four columns"><a href=""><span>CV</span></a></div>
+        <div class="four columns"><a href=""><span>GitHub</span></a></div>
+      </div>
+    </div>
   </div>
-</section>
-<!-- End Document
+  
+  <!-- End of container -->
+  </div>
+  <!-- End Document
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 </body>
 </html>
