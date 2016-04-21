@@ -1,0 +1,25 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "portfolio for ecw-design",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/echwang-live/portfolio.git"
+  },
+  "author": "Eric Wang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/echwang-live/portfolio/issues"
+  },
+  "homepage": "https://github.com/echwang-live/portfolio#readme",
+  "dependencies": {
+    "body-parser": "^1.15.0",
+    "ejs": "^2.4.1",
+    "express": "^4.13.4"
+  }
+}
