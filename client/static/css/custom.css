@@ -42,12 +42,6 @@ body{
   width: 20rem;
 }
 
-/*.hero {
-  background: url('../images/hero.jpg') no-repeat; 
-  color: white;
-  background-size: 100% 100%;
-}*/
-
 .hero h2, h5 {
   padding: 1rem;
 }
@@ -111,12 +105,22 @@ body{
   }
 }
 
+@media only screen and (max-width: 1024px) {
+  #exp-section {
+    overflow-x: scroll;
+  }
+
+  #tech-section {
+    overflow-x: scroll;
+  }
+}
+
+
 @media screen and (min-width: 1024px) {
   .hero {
   background: url('../images/hero.jpg') no-repeat; 
   color: white;
   background-size: 100% 100%;
   }
-
 }
 
